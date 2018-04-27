@@ -47,7 +47,7 @@
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="packagesToScan" value="BankApp" />
+		<property name="packagesToScan" value="com.home" />
 			<property name="hibernateProperties">
 				<props>
 					<prop key="hibernate.current_session_context_class">thread</prop>
